@@ -19,7 +19,7 @@ html {
     font-size: 1.2em;
     font-weight: 600;
 }
-.yellow-block h3{
+.yellow-block h2{
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 0.5em;
@@ -40,7 +40,7 @@ header[class="yellow-block"] h1{
     font-size: 3em;
     border-bottom: 2px solid black;
 }
-header[class="yellow-block"] h3{
+header[class="yellow-block"] h2{
     margin: 0;
     border-bottom: none;
     font-size: 1.5em;
