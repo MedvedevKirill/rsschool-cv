@@ -130,3 +130,9 @@ header{
 .nav-link {
    padding: 0 20px;
 }
+footer img{
+    transition: transform 0.75s ease;
+}
+footer img:hover{
+    transform: rotate(360deg);
+}
