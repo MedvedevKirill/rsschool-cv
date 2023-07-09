@@ -4,61 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum vitae</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
         <header class="yellow-block">
-            <img src="images/avatar.jpg" alt="Avatar">
-            <section>
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
+                </ul>
+              </nav>
+        </header>
+        <main>
+            <section class="yellow-block">
+                <img src="images/avatar.jpg" alt="Avatar">
                 <h1>Kirill Medvedev</h1>
                 <h3>Aspiring frontend developer</h3>
             </section>
-        </header>
-        <section class="about-me yellow-block"><h3>About me</h3>Hi, my name is Kirill.<br>I am a second year student of the Faculty of Informatics at Samara University.<br>
-            Now my goal is to learn <mark>front-end</mark> development, and I hope to be successful in this.<br>In my free time I try to study
-            my English.
-        </section>
-        <div  id="skills-code">
-            <section class="yellow-block">
-                <h3>Skills</h3>
-                <ul>
-                    <li>C#</li>
-                    <li>basic Unity</li>
-                    <li>basic JS</li>
-                    <li>basic CSS</li>
-                    <li>basic HTML</li>
-                </ul>
+            <section class="about-me yellow-block"><h3>About me</h3>Hi, my name is Kirill.<br>I am a second year student of the Faculty of Informatics at Samara University.<br>
+                Now my goal is to learn <mark>front-end</mark> development, and I hope to be successful in this.<br>In my free time I try to study
+                my English.
             </section>
-            <section class="yellow-block">
-                <h3>Code Examples</h3>
-                <pre>function count (string) {
-    var count = {};
-    string.split('').forEach(function(s) {
-        count[s] ? count[s]++ : count[s] = 1;});
-    return count;
+            <div  id="skills-code">
+                <section class="yellow-block">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>C#</li>
+                        <li>basic Unity</li>
+                        <li>basic JS</li>
+                        <li>basic CSS</li>
+                        <li>basic HTML</li>
+                    </ul>
+                </section>
+                <section class="yellow-block">
+                    <h3>Code Examples</h3>
+                    <pre>function count (string) {
+        var count = {};
+        string.split('').forEach(function(s) {
+            count[s] ? count[s]++ : count[s] = 1;});
+        return count;
 }</pre>
-            </section>
-        </div>
-        <div id="education-works-eng">
-            <section class="yellow-block">
-                <h3>Work Exp</h3>
-                <ul>
-                <li><a href="https://rolling-scopes-school.github.io/medvedevkirill-JS2020Q3/calculator/">Calculator</a></li>
-                <li><a href="https://rolling-scopes-school.github.io/medvedevkirill-JSFE2021Q1/virtual-piano/">Virtual piano</a></li>
-                <li><a href="https://rolling-scopes-school.github.io/medvedevkirill-JSFE2021Q1/wildlife/">Wildlife</a></li>
-                </ul>
-            </section>
-            <section class="yellow-block">
-                <h3>Education</h3>
-                Samara National<br>Research University
-            </section>
-            <section class="yellow-block">
-                <h3>English lvl</h3>
-                A2
-            </section>
-        </div>
+                </section>
+            </div>
+            <div id="education-works-eng">
+                <section class="yellow-block">
+                    <h3>Works</h3>
+                    <ul>
+                    <li><a href="https://rolling-scopes-school.github.io/medvedevkirill-JS2020Q3/calculator/">Calculator</a></li>
+                    <li><a href="https://rolling-scopes-school.github.io/medvedevkirill-JSFE2021Q1/virtual-piano/">Virtual piano</a></li>
+                    <li><a href="https://rolling-scopes-school.github.io/medvedevkirill-JSFE2021Q1/wildlife/">Wildlife</a></li>
+                    </ul>
+                </section>
+                <section class="yellow-block">
+                    <h3>Education</h3>
+                    Samara National<br>Research University
+                </section>
+                <section class="yellow-block">
+                    <h3>English lvl</h3>
+                    A2
+                </section>
+            </div>
+        </main>
         <footer class="yellow-block">
             <ul>
                 <li>
