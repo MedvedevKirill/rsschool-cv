@@ -21,3 +21,5 @@
    [Calculator](https://rolling-scopes-school.github.io/medvedevkirill-JS2020Q3/calculator/),
    [Virtual-piano](https://rolling-scopes-school.github.io/medvedevkirill-JSFE2021Q1/virtual-piano/),
    [Wildlife](https://rolling-scopes-school.github.io/medvedevkirill-JSFE2021Q1/wildlife/)
+7. Education: Samara National Research University
+8. English level: A2
