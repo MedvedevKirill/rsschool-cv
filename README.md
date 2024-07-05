@@ -1,1 +1,1 @@
-# [Curriculum vitae](https://medvedevkirill.github.io/rsschool-cv/cv)
+# [Curriculum vitae](https://medvedevkirill.github.io/rsschool-cv/)
