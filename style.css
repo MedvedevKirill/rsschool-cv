@@ -1,16 +1,25 @@
+*{
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth;
 }
-.wrapper{
-    min-height: 110vh;
+body{
     background-image: url(images/background.jpg);
     background-size: cover;
+    min-height: 100vh;
+}
+.wrapper{
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items:center;
 }
 .yellow-block{
+    margin-top: 20px;
     padding: 1em;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 57px 26px 10px rgba(0,0,0,0.38);
@@ -27,7 +36,7 @@ html {
 }
 header{
     display: flex;
-    width: 40.5vw;
+    width: 50%;
 }
 header section{
     font-family:sans-serif;
@@ -51,8 +60,14 @@ header img{
     height: 10em;
     min-width: 10em;
 }
+main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .about-me{
-    width: 40.5vw;
+    
 }
 pre{
     margin: 0 0 0 1em;
@@ -62,12 +77,12 @@ body{
     padding: 0;
 }
 #skills-code{
-    width: 42.8vw;
+    
     display: flex;
     justify-content:space-between;
 }
 #education-works-eng{
-    width: 42.8vw;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -104,10 +119,10 @@ footer
 {
     display: flex;
     flex-direction: column;
-    width: 40.5vw;
-    display: flex;
+    width: 50%;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 mark{
     background-color:darkgoldenrod;
@@ -128,7 +143,7 @@ header{
     padding: 0;
   }
 .nav-link {
-   padding: 0 20px;
+   padding: 0 18px;
 }
 footer img{
     transition: transform 0.75s ease;
